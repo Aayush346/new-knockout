@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knockout Match Game Plan Selector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Knockout Tournament</h1>
+  
+  <!-- Team Selection -->
+  <section id="team-selection">
+    <h2>Select Teams</h2>
+    <form id="team-form">
+      <label for="team1">Team 1:</label>
+      <input type="text" id="team1" name="team1" required><br>
+      <label for="team2">Team 2:</label>
+      <input type="text" id="team2" name="team2" required><br>
+      <label for="team3">Team 3:</label>
+      <input type="text" id="team3" name="team3" required><br>
+      <label for="team4">Team 4:</label>
+      <input type="text" id="team4" name="team4" required><br>
+      <button type="submit">Generate Matchups</button>
+    </form>
+  </section>
+
+  <!-- Match Display -->
+  <section id="matchups">
+    <h2>Matchups</h2>
+    <div id="bracket">
+      <!-- Matchups will be populated here -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
